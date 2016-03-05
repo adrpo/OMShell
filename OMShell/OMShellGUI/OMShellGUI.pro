@@ -33,7 +33,7 @@ win32 {
   message(uname: $$UNAME)
   count( ISMINGW32, 1 ) {
     CORBAINC = $$(OMDEV)/lib/omniORB-4.2.0-mingw32/include
-    CORBALIBS = -L$$(OMDEV)/lib/omniORB-4.2.0-mingw/lib/x86_win32 -lomniORB420_rt -lomnithread40_rt
+    CORBALIBS = -L$$(OMDEV)/lib/omniORB-4.2.0-mingw32/lib/x86_win32 -lomniORB420_rt -lomnithread40_rt
     DEFINES += __x86__ \
                __NT__ \
                __OSVERSION__=4 \
